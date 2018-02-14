@@ -1,0 +1,53 @@
+.main
+{
+    position :absolute;
+    top :50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);    
+}
+.heart{
+    width: 300px;
+    height:300px; 
+    transform: scale(1);
+    animation-name: heart;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+}
+.left, .right
+{
+    height: 170px;
+    width: 170px;
+    background-color :red;
+    border-radius: 150px;
+    position :absolute;
+}
+.left
+{
+    top: 12px;
+    left: 5px;
+}
+.right{
+    top: 12px;
+    right: 15px;    
+}
+.bottom
+{
+    height :150px;
+    width :150px;
+    background-color: red;
+    position :absolute;
+    transform: rotate(45deg);
+    left : 70px;
+    bottom :60px;
+    
+}
+@keyframes heart {
+    0%   {transform: scale(1);}
+    20% {transform: scale(1);}
+    30% {transform: scale(1.1);}
+    40% {transform: scale(1);}
+    50% {transform: scale(1.1);}
+    60% {transform: scale(1);}
+    100% {transform: scale(1);}
+    
+}
