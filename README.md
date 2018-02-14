@@ -1,2 +1,2 @@
 Happy Valentine's Day
-https://github.com/FunnyCPP/bemyvalentine
+http://komarivskyi.com/valentine/
